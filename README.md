@@ -10,16 +10,16 @@ REST API для поиска N-го минимального элемента в
 Java 17, Spring Boot 3.x, Spring Web MVC, Apache POI, SpringDoc OpenAPI
 
 ## Запуск:
-1. Склонировать репозиторий: 
-   git clone https://github.com/DariaB14/fileReader.git
-   cd fileReader
+1. Склонировать репозиторий:
+> git clone https://github.com/DariaB14/fileReader.git
+> cd fileReader
 2. Cобрать проект:
-   mvn clean package 
-3. Запустить приложение: 
-   java -jar target/fileReader-0.0.1-SNAPSHOT.jar
+> mvn clean package 
+4. Запустить приложение: 
+> java -jar target/fileReader-0.0.1-SNAPSHOT.jar
 
 ## Swagger документация доступна по адресу: 
-http://localhost:8080/swagger-ui.html
+> http://localhost:8080/swagger-ui.html
 
 ## Идеи по улучшению: 
 - Реализовать загрузку файла вместо передачи пути. 
