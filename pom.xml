@@ -30,7 +30,6 @@
         <java.version>17</java.version>
         <springdoc.version>2.8.8</springdoc.version>
         <poi.version>5.2.3</poi.version>
-        <lombok.version>1.18.30</lombok.version>
     </properties>
     <dependencies>
         <dependency>
@@ -61,13 +60,6 @@
             <artifactId>poi-ooxml</artifactId>
             <version>${poi.version}</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <build>
@@ -75,14 +67,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
             </plugin>
         </plugins>
     </build>

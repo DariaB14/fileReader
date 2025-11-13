@@ -1,4 +1,4 @@
-### N-th Minimum element Finder
+## N-th Minimum element Finder
 
 REST API для поиска N-го минимального элемента в Excel файле. 
 
@@ -7,7 +7,7 @@ REST API для поиска N-го минимального элемента в
 - Поиск N-го минимального элемента с использованием алгоритма на основе кучи.
 
 ## Стек: 
-Java 17, Spring Boot 3.x, Spring Web MVC, Apache POI, SpringDoc OpenAPI
+Java 17, Spring Boot 3.x, Spring Web MVC, Apache POI, SpringDoc OpenAPI, Maven
 
 ## Запуск:
 1. Склонировать репозиторий:
