@@ -15,9 +15,10 @@ Java 17, Spring Boot 3.x, Spring Web MVC, Apache POI, SpringDoc OpenAPI, Maven
 1. Склонировать репозиторий:
 > git clone https://github.com/DariaB14/fileReader.git
 >> cd fileReader
-2. Cобрать проект:
+2. Запустить приложение:
+> mvn spring-boot:run
+Или: 
 > mvn clean package 
-4. Запустить приложение: 
 > java -jar target/fileReader-0.0.1-SNAPSHOT.jar
 
 ## Swagger документация доступна по адресу: 
