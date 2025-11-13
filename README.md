@@ -12,7 +12,7 @@ Java 17, Spring Boot 3.x, Spring Web MVC, Apache POI, SpringDoc OpenAPI
 ## Запуск:
 1. Склонировать репозиторий:
 > git clone https://github.com/DariaB14/fileReader.git
-> cd fileReader
+>> cd fileReader
 2. Cобрать проект:
 > mvn clean package 
 4. Запустить приложение: 
